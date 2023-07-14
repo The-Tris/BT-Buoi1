@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
+*{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html{
+	background-color: #fee7ed;
+	text-rendering: optimizeLegibility;
+}
+
+body{
+	overflow-x: scroll;
+	text-align: center;
+	justify-content: center;
+}
+
+/*header---------------------*/
+header{
+	padding: 100px;
+	font-size: 200%;
+	background: linear-gradient(rgba(203,205,202,0.1), rgba(254,231,237,1)), url(https://qph.cf2.quoracdn.net/main-qimg-e3ca61c7b97ab7d4278dcd706c549b26-lq) no-repeat left #CBCDCA;
+}
+
+/*section--------------------*/
+section{
+	padding: 20px 50px;
+	margin: 0px auto 50px;
+	background-color: #ffffff;
+	width: 834px;
+	border: 0.8px solid rgba(215,215,215,1.00);
+	border-radius: 16px;
+	font-size: 150%;
+}
+
+h2{
+	font-size: 150%;
+	margin-bottom: 20px;
+}
+
+	/*section form----------------*/
+
+input, select{
+	width: 80%;
+	box-sizing: border-box;
+	margin: 6px 0 8px 0;
+	border: 1px solid rgba(125,125,125,1.00);
+	border-radius: 5px;
+	padding: 12px 20px;
+	font-size: 80%;
+}
+
+button[type="submit"]{
+	width: 80%;
+	background-color: #add8e6;
+	padding: 12px 20px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 80%;
+}
+
+button[type="submit"]:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+	/*section list----------------*/
+.cat-list{
+	list-style-type: none;
+}
+
+.cat-item{
+	background-color: #add8e6;
+	margin: 0 auto 20px auto;
+	border-radius: 20px;
+	max-width: 400px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cat-item-link{
+	text-decoration: none;
+	color: white;
+}
+
+.cat-item-img{
+	width: 100%;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.cat-item-desc{
+	padding: 10px 0 10px 20px;
+	text-align: center;
+	font-size: 80%;
+}
+
+.cat-item-name{
+	font-size: 24px;
+	margin: 0;
+}
+
+.cat-item-desc h3, .cat-item-desc p{
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
