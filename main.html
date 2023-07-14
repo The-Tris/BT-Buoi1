@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Meowville: A Cat Lover's Paradise</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	
+	
+</head>
+
+<body>
+	<header>
+		<h1>Meowville: A Cat Lover's Paradise</h1>
+	</header>
+	
+    <section id="create-cat">
+		<form id="catForm">
+			<h2>Create a Cat</h2>
+			
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="stage">Stage</label>
+			<select id="stage" name="stage" required>
+				<option value="" selected>Select stage</option>
+				<option value="kitten">Kitten</option>
+				<option value="young">Young</option>
+				<option value="adult">Adult</option>
+			</select>
+
+			<label for="breed">Breed</label>
+			<input type="text" id="breed" name="breed" required>
+
+			<label for="imageUrl">Image url</label>
+			<input type="text" id="imageUrl" name="imageUrl" required>
+			
+			<button type="submit">Create</button>
+		</form>
+    </section>
+
+    <section id="cats">
+		<h2>List of Cats</h2>
+		
+		<ul id="cat-list" class="cat-list">
+			
+			<li class="cat-item">
+				<a class="cat-item-link" href="#">
+					<img class="cat-item-img" src="https://static.wikia.nocookie.net/blinks/images/2/2a/Luca2020.jpg/revision/latest?cb=20201211201922">
+					<div class="cat-item-desc">
+						<h3 class="cat-item-name">Luca</h3>
+						<p class="cat-item-stage">Adult</p>
+						<p class="cat-item-breed">Ragdoll</p>
+					</div>
+				</a>
+        	</li>
+			
+			<li class="cat-item">
+				<a class="cat-item-link" href="#">
+					<img class="cat-item-img" src="https://static.wikia.nocookie.net/blinks/images/f/fd/BLACKPINK-Lisa_Cat_Leo.jpg/revision/latest?cb=20201211200101">
+					<div class="cat-item-desc">
+						<h3 class="cat-item-name">Leo</h3>
+						<p class="cat-item-stage">Adult</p>
+						<p class="cat-item-breed">Scottish fold</p>
+					</div>
+				</a>
+			</li>
+			
+			<li class="cat-item">
+				<a class="cat-item-link" href="#">
+					<img class="cat-item-img" src="https://lh3.googleusercontent.com/a3IJy7ZBTuYHOjZ-hgNSeoS-TLdNpQtduj08Vto0TJm8AFld0D6Pwc0_yQI_lKN8BeusXG1lfh1EAbYpGEgvIeaTZC2OKWZ7ewG3dI7UEan2suSL=w960-rj-nu-e365">
+					<div class="cat-item-desc">
+						<h3 class="cat-item-name">Lego</h3>
+						<p class="cat-item-stage">Adult</p>
+						<p class="cat-item-breed">British Shorthair</p>
+					</div>
+				</a>
+			</li>
+			
+		</ul>
+	</section>
+	
+</body>
+</html>
